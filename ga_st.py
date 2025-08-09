@@ -10,11 +10,12 @@ st.set_page_config(
     page_icon="📈"
 )
 
+# Ocultar elementos desnecessários da interface
 st.markdown("""
     <style>
-    #MainMenu {display: none;}
-    footer {display: none;}
-    header {display: none;}
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
     section[data-testid="stSidebar"] ul {
         display: none !important;
     }
