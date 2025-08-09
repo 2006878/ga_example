@@ -3,6 +3,16 @@ import numpy as np
 import pygad
 import matplotlib.pyplot as plt
 
+import streamlit as st
+
+st.set_page_config(
+    page_title="Alocação de Recursos",
+    page_icon="📈"
+)
+
+# resto do código...
+
+
 st.markdown(
     """
     <h1 style="color: #4CAF50; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
