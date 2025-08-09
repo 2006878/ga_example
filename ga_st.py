@@ -10,7 +10,14 @@ st.set_page_config(
     page_icon="📈"
 )
 
-# resto do código...
+# Ocultar elementos desnecessários da interface
+st.markdown("""
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+""", unsafe_allow_html=True)
 
 
 st.markdown(
