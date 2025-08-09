@@ -14,7 +14,6 @@ st.set_page_config(
 st.markdown("""
     <style>
     #MainMenu {visibility: hidden;}
-    footer {visibility: hidden;}
     header {visibility: hidden;}
     section[data-testid="stSidebar"] ul {
         display: none !important;
