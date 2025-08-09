@@ -16,7 +16,7 @@ st.set_page_config(
 st.markdown(
     """
     <h1 style="color: #4CAF50; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-        🚀 Otimize seu investimento no seu projeto de Inovação
+        🚀 Otimize o investimento no seu projeto de Inovação
     </h1>
     <h3 style="color: #555;">
         Maximize o impacto social e econômico com Algoritmos Genéticos
